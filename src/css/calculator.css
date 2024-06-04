@@ -1,0 +1,39 @@
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   background-color: var(--dark-color);
+   overflow: hidden;
+   perspective: 1000px;
+ }
+ 
+.container {
+   text-align: center;
+   align-self: center;
+   background-color: #ffcccc;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+   color: #cc0000;
+}
+
+label, p {
+   color: #990000;
+}
+
+button {
+   background-color: #ff6666;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #ff4d4d;
+}

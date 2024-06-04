@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="src/css/calculator.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Namoro</h1>
+        <form id="datingCalculatorForm">
+            <label for="relationshipType">Tipo de relacionamento:</label>
+            <select id="relationshipType" name="relationshipType" onchange="updateForm()">
+                <option value="couple">Casal</option>
+                <option value="throuple">Trisal</option>
+            </select><br><br>
+
+            <label for="birthDatePerson1">Data de nascimento da pessoa 1:</label>
+            <input type="date" id="birthDatePerson1" name="birthDatePerson1" required><br><br>
+
+            <label for="birthDatePerson2">Data de nascimento da pessoa 2:</label>
+            <input type="date" id="birthDatePerson2" name="birthDatePerson2" required><br><br>
+
+            <div id="thirdPerson" style="display: none;">
+                <label for="birthDatePerson3">Data de nascimento da pessoa 3:</label>
+                <input type="date" id="birthDatePerson3" name="birthDatePerson3"><br><br>
+            </div>
+
+            <button type="button" onclick="calculateDatingEligibility()">Calcular</button>
+        </form>
+
+        <p id="result"></p>
+    </div>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
