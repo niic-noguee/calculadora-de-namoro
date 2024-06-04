@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Namoro</title>
+</head>
+<body>
+    <h1>Calculadora de Namoro</h1>
+    <form id="datingCalculatorForm">
+        <label for="birthDatePerson1">Data de nascimento da pessoa 1:</label>
+        <input type="date" id="birthDatePerson1" name="birthDatePerson1" required><br><br>
+
+        <label for="birthDatePerson2">Data de nascimento da pessoa 2:</label>
+        <input type="date" id="birthDatePerson2" name="birthDatePerson2" required><br><br>
+
+        <button type="button" onclick="calculateDatingEligibility()">Calcular</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
