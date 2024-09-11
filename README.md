@@ -1,8 +1,3 @@
-# Calculadora de namoro
-
-Este é o trabalho final da disciplina de Laboratório de Programação do primeiro semestre da faculdade de Análise e Desenvolvimento de Sistemas. 
-O projeto consiste em uma calculadora de namoro que determina a elegibilidade de um relacionamento (casal ou trisal) com base nas idades dos participantes.
-
 ## Requisitos e funcionalidades
 
 - Idade mínima para namorar: 13 anos.
